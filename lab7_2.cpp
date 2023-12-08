@@ -43,4 +43,5 @@ int main(){
     cout << name <<": ";
     cin >> massage; 
     cout << "Fahsai: 555+ see you " << day << ". Bye Bye \\(^ ^)/";
+    retuen 0;
 }
