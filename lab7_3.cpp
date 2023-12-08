@@ -2,7 +2,19 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+    if(x == 'A'){
+        return 'Z';
+        }
+    if(x == '0'){
+        return '0';
+        }
+    if(x <= 'Z'){
+        x = x-1;
+        return x;
+        }
+    else{
+	    return '0';
+	}
 }
 
 int main(){
